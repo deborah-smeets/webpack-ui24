@@ -7,8 +7,44 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>Contactez-nous</h1>
-<img src="assets/img/portrait.jpg" alt="">
-<script src="main.js"></script>
+        <div class="container content">
+            <h1>Contactez-nous!</h1>
+            <form action="" class="newPerson">
+
+                <div class="field">
+                    <label class="label" for="newFirstName">Prénom</label>
+                    <div class="control">
+                        <input class="input" required type="text" class="newFirstName" placeholder="John">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="newName">Nom</label>
+                    <div class="control">
+                        <input class="input" required type="text" class="newName" placeholder="Smith">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="newMail">Adresse email</label>
+                    <div class="control">
+                        <input class="input" required type="email" class="newMail" placeholder="john@smith.com">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="newImg">Image</label>
+                    <div class="control">
+                        <input class="input" type="text" class="newImg" placeholder="https//www.taphoto.tropbelle">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <button class="button is-link" disabled>Envoyer!</button>
+                </div>
+            </form>
+        </div>
+
+
 </body>
 </html>

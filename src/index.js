@@ -1,7 +1,8 @@
-import css from './main.scss';
+import './main.scss';
 import Jquery from 'jquery';
-import Bulma from 'bulma';
+//import 'bulma'; car importer via sass
 import './js/alert';
+import './js/control-form'
 
 let texte = "Hello"
 
@@ -11,5 +12,5 @@ setTimeout(() => {
     //alert('test');
     }, 500);
 
-    document.querySelector('.header').innerHTML = 'Yahoo'
+    //document.querySelector('.header').innerHTML = 'Yahoo'
     Jquery(".header").html('jquerry')
