@@ -1,8 +1,12 @@
 import './main.scss';
+import Axios from 'axios'; //import de la librairie axios
+
 import Jquery from 'jquery';
 //import 'bulma'; car importer via sass
 import './js/alert';
-import './js/control-form'
+import './js/control-form';
+import './js/beers'
+
 
 let texte = "Hello"
 
