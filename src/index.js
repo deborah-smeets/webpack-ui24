@@ -1,5 +1,7 @@
 import css from './main.scss';
-import Jquery from 'jquery'
+import Jquery from 'jquery';
+import Bulma from 'bulma';
+import './js/alert';
 
 let texte = "Hello"
 
